@@ -14,7 +14,7 @@
 		<div class="col-lg-8">
 			<div class="row">
 			<div class="col-2 logo_wrap">
-				<img src="images/logo.png" title="Tribhuwan University" alt="TULOGO">
+				<img class="img-fluid" src="images/logo.png" title="Tribhuwan University" alt="TULOGO">
 			</div>
 			<div class="col logo_text_wrap">
 				<h4>Tribhuwan University</h4>
@@ -99,11 +99,11 @@
 					<article class="introduction">
 						<h3>Introduction</h3>
 							<div class="row">
-							<figure class="col image-wrap">
-								<img src="images/intro.jpg">
+							<figure class="col-lg-6 image-wrap col-sm-12 text-center">
+								<img class="img-fluid mx-auto " src="images/intro.jpg">
 							</figure>
-							<div class="col text-wrap">
-									<p class="text-justify">
+							<div class="col-lg-6 text-wrap col-sm-12 text-center">
+									<p class="text-justify ">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also.
 									</p>
 							</div>
@@ -113,6 +113,12 @@
 						<h1 class="hidden">Latest News and Events</h1>
 						<article class="col">
 							<h4>Latest News</h4>
+							<div class="news_box_wrap">
+								<div class="col-lg-12">
+								<div class="col-4 pad_fix float-left" ><img class="img_tn_news" src="images/tn_news.JPG"></div>
+								<div class="col pad_fix"> <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p></div>
+							</div>
+							</div>
 						</article>
 						<article class="col">
 							<h4>Latest Event</h4>
@@ -120,10 +126,30 @@
 
 					</aside>
 				</div>
-			<aside class="col-lg-4">
-					<h3>Message From Director</h3>
-					<p></p>
+			<aside class="col-lg-4 text-center">
+					<div class="wrap-director">
+					<h3 class="text-center">Message From Director</h3>
+					<figure>
+						<img src="images/director.jpg" class="rounded mx-auto d-block director_image" alt="Image Of Director">
+						<figcaption class="text-center">Nar Bahadur Gharti Magar<br>Managing Director</figcaption>						
+				</figure>
+					<p class="text-justify">
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+					</p>
+					<a href="#" class="btn btn-success">Read More</a>
+				</div>
+				<div class="wrap-gallery">
+				<h3 class="text-center">Photo Gallery</h3>
+				<figure class="img-gallery-box">
+					<img class="img-fluid img-gallery" src="images/gallery.jpg" alt="Image Name">
+					 <div class="middle">
+    					<div class="text"><a href="#">Read More</a></div>
+  					</div>
+				</figure>
+				</div>
 			</aside>
+
+
 		</div>
 	</div>
 </section>
