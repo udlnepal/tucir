@@ -46,8 +46,12 @@
   text-decoration: none;
 }
 .img_tn_news{
-	max-height: 75px;
+	max-height: 80px;
 }
 .pad_fix{
 	padding: 0;
+}
+
+a.news_title{
+	text-decoration: none;
 }
